@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logincss.css">
+    <title>Sign up page</title>
+</head>
+<body> 
+    <div class="signupform">
+    <!--Step 1 : Adding HTML-->
+    <form > 
+        <div class="titlecontainer"> 
+            <p>WEB <span>APP</span></p><br>
+        </div> 
+        <div class="signupcontainer">
+        <label for="fname"><b>First name:</b></label><br>
+        <input type="text" id="fname" name="fname" value="" placeholder="Enter First name" required><br>
+        <label for="lname"><b>Last name:</b></label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="Enter Last name" required><br><br>
+
+        <label for="username"><b>Username:</b></label><br>
+        <input type="text" id="username" name="username" placeholder="Enter Username" required><br>
+        <label><b>Password</b></label></br>
+        <input type="password" placeholder="Enter Password" name="psw" required> </br></br>
+        <label for="email"><b>Email ID:</b></label><br>
+        <input type="email" id="email" name="email" placeholder=" Enter Email ID" required><br></br>
+        <label for="pnumber"><b>Phone number:</b></label></br>
+        <input type="tel" id="pnumber" name="pnumber" value="" placeholder=" Enter Phone number" required></br></br>
+
+
+        <!-- radio button -->
+        <label for="Gender"><b>Gender:</b></label><br>
+        <div class="radio">
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label></br></br>
+    </div>
+
+        <button type="submit">Sign up</button> </br>
+    </div>
+    </form> 
+</div>
+  
+</body> 
+  
+</html> 
